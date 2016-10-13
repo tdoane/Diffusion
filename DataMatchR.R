@@ -1,10 +1,10 @@
  rm(list=ls())
  graphics.off()
  
- setwd('C:/Users/thdoa/Dropbox/Research/Nonlocal/Data')
+ setwd('working directory')
  
- X_raw <- read.table('C:/Users/thdoa/Dropbox/Research/Nonlocal/Data/Sierra_Nev/B_XA.txt')
- Z_raw <- read.table('C:/Users/thdoa/Dropbox/Research/Nonlocal/Data/Sierra_Nev/B_ZA.txt')
+ X_raw <- read.table('fileName')
+ Z_raw <- read.table('fileName)
  
  plot(X_raw[ ,1], Z_raw[ ,1])
  x11()
